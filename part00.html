@@ -32,6 +32,23 @@
       <h1>Rust-101, Part 00</h1>
     </div>
     <div class='code'>
+      <div class="highlight"><pre></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-2'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-2'>#</a>
+      </div>
+      <p>As a starter, we want to write a function that computes the minimum of a list.
+First, we need to get a list. For now, let's just hard-code some sample list.
+Later, we will ask the user to input a list.</p>
+<p>Observe how in Rust, the function type comes <em>after</em> the arguments (which, in
+this case, the function does not have). <code>Vec&lt;i32&gt;</code> is the type of a growable list
+of (signed, 32-bit) integers.</p>
+    </div>
+    <div class='code'>
       <div class="highlight"><pre><span class="k">pub</span><span class="w"> </span><span class="k">fn</span><span class="w"> </span><span class="n">read_vec</span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Vec</span><span class="o">&lt;</span><span class="kt">i32</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">    </span><span class="n">vec</span><span class="o">!</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
